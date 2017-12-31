@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Startup", "Startup\Startup.csproj", "{B797F06E-73C4-45AD-AB69-0C74475873CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{ABE69574-A411-4D75-932B-DCF0279A78D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{30EFEC02-5DD2-4189-8829-812E91C2BBFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{A4300BA9-785C-49FF-B9AC-2BF91D06DDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\FactoryMethod\AbstractFactory.csproj", "{920027D6-7ED0-4A43-A62E-CA7B18997108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{030DF9C5-E233-49B6-90C7-D02F0D59C440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Structural\Bridge\Bridge.csproj", "{6CB7651A-500E-4706-8A66-979BC22C89BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Observer\Observer.csproj", "{A5396EB6-19D8-4513-9179-871BEABC193D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{5D3D918D-645D-491D-9A0F-57F13504C4EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B797F06E-73C4-45AD-AB69-0C74475873CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B797F06E-73C4-45AD-AB69-0C74475873CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B797F06E-73C4-45AD-AB69-0C74475873CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B797F06E-73C4-45AD-AB69-0C74475873CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EFEC02-5DD2-4189-8829-812E91C2BBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EFEC02-5DD2-4189-8829-812E91C2BBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EFEC02-5DD2-4189-8829-812E91C2BBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EFEC02-5DD2-4189-8829-812E91C2BBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920027D6-7ED0-4A43-A62E-CA7B18997108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920027D6-7ED0-4A43-A62E-CA7B18997108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920027D6-7ED0-4A43-A62E-CA7B18997108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920027D6-7ED0-4A43-A62E-CA7B18997108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB7651A-500E-4706-8A66-979BC22C89BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB7651A-500E-4706-8A66-979BC22C89BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB7651A-500E-4706-8A66-979BC22C89BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB7651A-500E-4706-8A66-979BC22C89BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5396EB6-19D8-4513-9179-871BEABC193D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5396EB6-19D8-4513-9179-871BEABC193D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5396EB6-19D8-4513-9179-871BEABC193D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5396EB6-19D8-4513-9179-871BEABC193D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3D918D-645D-491D-9A0F-57F13504C4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3D918D-645D-491D-9A0F-57F13504C4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3D918D-645D-491D-9A0F-57F13504C4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3D918D-645D-491D-9A0F-57F13504C4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30EFEC02-5DD2-4189-8829-812E91C2BBFB} = {ABE69574-A411-4D75-932B-DCF0279A78D1}
+		{920027D6-7ED0-4A43-A62E-CA7B18997108} = {ABE69574-A411-4D75-932B-DCF0279A78D1}
+		{6CB7651A-500E-4706-8A66-979BC22C89BA} = {030DF9C5-E233-49B6-90C7-D02F0D59C440}
+		{A5396EB6-19D8-4513-9179-871BEABC193D} = {A4300BA9-785C-49FF-B9AC-2BF91D06DDB6}
+		{5D3D918D-645D-491D-9A0F-57F13504C4EA} = {A4300BA9-785C-49FF-B9AC-2BF91D06DDB6}
+	EndGlobalSection
+EndGlobal
